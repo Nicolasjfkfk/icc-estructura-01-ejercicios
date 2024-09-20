@@ -28,6 +28,14 @@ public class App {
          * realizar operaciones básicas de manera creativa en programación.
          */
         int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
+        int multiplicacion = dataStructuresPrep.multiplyAlgorithm(5, 3);
+        int division = dataStructuresPrep.divideWAlgorithm(10, 2);
+        boolean perfecto = dataStructuresPrep.isPerfectNumber(28);
+        int factorial= dataStructuresPrep.getFactorial(5);
+        int max= dataStructuresPrep.findMaximum(new int[]{1, 5, 3, 6, 8, 2});
+        int result= dataStructuresPrep.powerAlgorithm(2, 3);
+        boolean prime=dataStructuresPrep.isPrime(5);
+        int contador= dataStructuresPrep.countDigits(12345);
 
         /*
          * Imprimir el resultado de la operación.
@@ -44,6 +52,15 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
+        System.out.println("El resultado de multiplicacion es: " + multiplicacion);
+        System.out.println("El resultado de la division es: " + division);
+        System.out.println("El numero perfecto es: " + perfecto);
+        System.out.println("El numero factorial es: " + factorial);
+        System.out.println("El numero maximo Encontrado es el: " + max);
+        System.out.println("El exponente es: " + result);
+        System.out.println("El numero primo es: "+ prime);
+        System.out.println("La cantidad de numeros es: "+ contador);
+
 
     }
 }
